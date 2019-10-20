@@ -10,7 +10,7 @@ public class HomeController {
     @RequestMapping("/")
     @ResponseBody
     public String home() {
-        return "Application deployed";
+        return "Application deployed test";
     }
     
 }
